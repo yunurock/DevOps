@@ -28,10 +28,10 @@ and Network.
 
 <img width="541" height="369" alt="image" src="https://github.com/user-attachments/assets/db626420-d3d1-4bcf-9e5c-f7da95a252f7" />
 
-#**Virtualization**
+# **Virtualization**
 Insted of using the Physical resources directly it allows Mutiple Virtual Machines to run on single Physical machine.
 
-#**Containerzation**
+# **Containerzation**
 It is a technology that packages an application along with all the it's dependencies libraries and configuration files into a container so it can run
 consistently across different environments.
 
