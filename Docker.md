@@ -41,7 +41,7 @@ Container share the Host as kernel instead of running a separate Operating Syste
 
 <img width="858" height="589" alt="image" src="https://github.com/user-attachments/assets/fa40ed6e-0bf8-48b1-a2d3-c9a99a62bcc3" />
 
-#**Virtualization V/s Containerzation**
+# **Virtualization V/s Containerzation**
 
 1. Virtual Machines are dependent on Operating System.
 2. Virtual Machine will take take to Start up and Shutdown.
@@ -50,6 +50,14 @@ Container share the Host as kernel instead of running a separate Operating Syste
 1. Container are Independent of Operating System.
 2. Containers will be very fast to start and shutdown.
 3. Containers are very light we can easily move from one env to another env.
+
+   # **Container**
+
+   Container is a way to package application with necesary dependencies and configurations.
+   This Package is Portable and can easily shared around.
+   The base image would be very small in size on top it have application image.
+
+   
 
    
 
