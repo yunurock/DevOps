@@ -128,5 +128,15 @@ docker container start <CONTAINER_ID>
 docker container stop test-container
 docker container start test-container
 ```
+## Run a Tomcat Container
 
+```bash
+docker container run -itd -p 8081:8080 --name tomcat_test tomcat:latest
+```
+
+## Execute Commands Inside a Running Container
+
+```bash
+docker exec -it <CONTAINER_ID> /bin/bash
+```
 
