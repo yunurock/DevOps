@@ -15,6 +15,8 @@ sudo systemctl enable docker
 ```bash
 sudo docker run hello-world
 ```
+<img width="437" height="107" alt="image" src="https://github.com/user-attachments/assets/8764df1c-5408-4b6d-88c6-d98dbdd56c85" />
+
 
 This command downloads the **hello-world** image (if it is not already available locally) and runs a test container to verify that Docker is installed and working correctly.
 
@@ -27,6 +29,8 @@ docker pull ubuntu
 docker images
 docker image rm <IMAGE_ID>
 ```
+<img width="511" height="144" alt="image" src="https://github.com/user-attachments/assets/6750a918-9a69-4d29-9318-a2d593181c8f" />
+<img width="474" height="49" alt="image" src="https://github.com/user-attachments/assets/6764f8a4-e4b7-43a1-a693-101d6967f671" />
 
 ### Explanation
 
