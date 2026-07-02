@@ -115,8 +115,15 @@ After running this command, you can access the Nginx web server at:
 For example:
 
 ```
-http://192.168.1.10:81
+curl container ip:portnumber
 ```
+<img width="680" height="422" alt="image" src="https://github.com/user-attachments/assets/ed4b2de2-fc90-407b-878f-f2e3f09686e9" />
+
+**Note** You cannot access the Nginx web page using the container ID. The container ID is only used to manage the container through Docker commands.
+
+To view the Nginx page in a web browser, use the EC2 instance's Public IP address (or public DNS) along with the host port that was mapped when the container was started.
+
+<img width="727" height="285" alt="image" src="https://github.com/user-attachments/assets/7f431eb4-2df7-433d-b8ed-7a33204c21f0" />
 
 ## Stop and Start a Container
 
