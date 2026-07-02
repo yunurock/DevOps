@@ -64,6 +64,8 @@ docker container logs <CONTAINER_ID>
 docker container run -it ubuntu
 docker container run -itd ubuntu
 ```
+<img width="695" height="163" alt="image" src="https://github.com/user-attachments/assets/ecfe85ce-fb3c-4192-b11f-28b1b6495984" />
+
 
 #### Examples
 
@@ -77,6 +79,8 @@ docker container run -itd ubuntu
 ```bash
 docker container inspect <CONTAINER_ID>
 ```
+<img width="704" height="294" alt="image" src="https://github.com/user-attachments/assets/f4abaaab-d83f-430a-9a19-536aac269f0c" />
+
 
 ### Explanation
 
@@ -96,6 +100,8 @@ docker container inspect <CONTAINER_ID>
 ```bash
 docker container run -itd -p 81:80 --name test-container nginx
 ```
+<img width="765" height="226" alt="image" src="https://github.com/user-attachments/assets/8afad041-3302-475f-8f36-281df44d1b29" />
+
 
 ### Explanation
 
