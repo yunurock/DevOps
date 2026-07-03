@@ -150,10 +150,12 @@ docker container start test-container
 ```bash
 docker container run -itd -p 8081:8080 --name tomcat_test tomcat:latest
 ```
+<img width="811" height="204" alt="image" src="https://github.com/user-attachments/assets/37baf75e-a1b7-4cc5-9e79-c954ccdf2278" />
 
 ## Execute Commands Inside a Running Container
 
 ```bash
 docker exec -it <CONTAINER_ID> /bin/bash
 ```
+<img width="720" height="62" alt="image" src="https://github.com/user-attachments/assets/023bbeea-19fb-4d61-be28-7b0dd11fe894" />
 
