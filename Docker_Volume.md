@@ -67,3 +67,5 @@ Delete all volumes that are not attached to any container.
 ```bash
 docker volume prune
 ```
+<img width="522" height="223" alt="image" src="https://github.com/user-attachments/assets/0235ce86-8fc9-4fda-b42c-6f4040433f40" />
+
