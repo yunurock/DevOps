@@ -4,8 +4,6 @@
 
 A Docker Volume is a storage mechanism provided by Docker that allows data to **persist even after a container is stopped or deleted**.
 
-By default, any data created inside a container is stored in the container's writable layer. Since containers are **ephemeral (temporary)**, this data is lost when the container is removed.
-
 Docker Volumes solve this problem by storing data **outside the container's filesystem**, allowing it to persist independently of the container.
 
 ## Key Points
