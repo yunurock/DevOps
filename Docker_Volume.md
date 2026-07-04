@@ -103,7 +103,38 @@ docker container run -itd -p 8085:8080 -v /var/lib/docker/volumes/tomcat:/usr/lo
 Delete all volumes that are not attached to any container.
 
 ```bash
-docker volume prune
+docker volume prune -f
+docker container prune -f
 ```
 <img width="522" height="223" alt="image" src="https://github.com/user-attachments/assets/0235ce86-8fc9-4fda-b42c-6f4040433f40" />
+
+## when you attach the volumes to your docker container, what ever the files you have created inside the volumes same files can be refleted in the containers.
+
+<img width="857" height="155" alt="image" src="https://github.com/user-attachments/assets/a3d3c0ce-2812-49f8-8ead-bc8cead18612" />
+
+---
+
+# Docker Stats
+
+docker stats is a Docker command used to monitor the live resource usage of running containers.
+
+```bash
+docker stats
+```
+<img width="869" height="57" alt="image" src="https://github.com/user-attachments/assets/57f368f3-5453-4d67-afd9-90005fcfd9d4" />
+
+A container memory limit is the maximum amount of RAM that a Docker container is allowed to use.
+
+By default, a container can use as much memory as the host system makes available. You can restrict it using the --memory (or -m) option.
+
+```bash
+docker container run -itd 81:80 --memory=512m nginx
+```
+
+<img width="788" height="128" alt="image" src="https://github.com/user-attachments/assets/cf6d9743-2bde-4a7f-9782-a91888614100" />
+
+
+
+
+
 
