@@ -38,9 +38,11 @@ CMD can be override,if we pass other argument.
 ENTRYPOINT cannot be overriden.
 we cna use multiple CMD but only last one will be considered at runtime.
 
-EX:_
-FROM ubuntu
-RUN apt-get update
-ENTRYPOINT ["echo","hello"]
-CMD ["WORLD"]
+# Sample Dockerfile
+
+```dockerfile
+FROM nginx
+RUN apt-get update && apt-get install -y curl
+EXPOSE 80
+```
 
